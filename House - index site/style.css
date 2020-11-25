@@ -1,0 +1,12 @@
+.webgl-content {
+  border: 1px red solid;
+}
+#unityContainer {
+  border: 1px blue solid;
+}
+.check-size {
+  background-color: aquamarine;
+  height: 500px;
+  width: 960px;
+  margin: auto;
+}
