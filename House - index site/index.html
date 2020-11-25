@@ -6,6 +6,12 @@
     <title>Unity WebGL Player | HOUSE</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico" />
     <link rel="stylesheet" href="TemplateData/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css" />
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
@@ -18,15 +24,28 @@
     </script>
   </head>
   <body>
-    <div class="check-size">test size block</div>
-    <div class="webgl-content">
-      <div id="unityContainer" style="width: 960px; height: 600px"></div>
-      <div class="footer">
+    <header>
+      <div>
+        <a href="#">Introduction</a>
+        <a href="#">Explication du jeu</a>
+        <a href="#">à propos des concepteurs</a>
+      </div>
+    </header>
+    <div class="home"></div>
+    <div class="jeu">
+      <div class="webgl-content">
+        <div id="unityContainer" style="width: 960px; height: 500px"></div>
+        <!--<div class="footer">
         <div class="webgl-logo"></div>
         <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
         <div class="title">HOUSE</div>
+      </div>-->
+        <div id="play">
+          <i class="far fa-play-circle"></i>
+        </div>
       </div>
     </div>
+    <div class="about"></div>
     <script src="script.js"></script>
   </body>
 </html>
