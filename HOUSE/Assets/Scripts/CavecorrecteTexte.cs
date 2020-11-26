@@ -24,12 +24,18 @@ public class CavecorrecteTexte : MonoBehaviour
     {
         if( InputTexte.text == "creuser"){
             BoutonSuivant.SetActive(true);
+        }else{
+            BoutonSuivant.SetActive(false);
         }
         if( InputTexte2.text == "jeter la terre"){
             BoutonFin.SetActive(true);
+        }else{
+            BoutonFin.SetActive(false);
         }
         if( InputTexte3.text == "recommencer"){
             MonCanvasCacheCorrect.SetActive(true);
+        }else{
+            MonCanvasCacheCorrect.SetActive(false);
         }
     }
 }
