@@ -1,12 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #2c5282;
+  color: white;
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  margin: 0;
+}
+.menu {
+  padding-left: 10%;
+}
+.menu > a {
+  line-height: 50px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  padding-right: 20px;
+  font-weight: bold;
+  font-size: 90%;
+}
+iframe {
+  display: block;
+  margin: auto;
+}
+
 .webgl-content {
   border: 1px red solid;
+  position: absolute;
+  top: 310px;
 }
 #unityContainer {
   border: 1px blue solid;
 }
-.check-size {
-  background-color: aquamarine;
+#play {
+  position: absolute;
+  background-image: url("./static/fond_play.jpg");
+  background-size: cover;
   height: 500px;
   width: 960px;
   margin: auto;
+  top: 0px;
+}
+.far {
+  display: block;
+  line-height: 500px;
+  margin: auto;
+  color: white;
+  font-size: 200px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-100px);
+}
+.page {
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
+}
+.page > p {
+  margin: 30px 0;
+}
+h1 {
+  text-align: center;
 }

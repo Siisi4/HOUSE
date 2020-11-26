@@ -6,6 +6,12 @@
     <title>Unity WebGL Player | HOUSE</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico" />
     <link rel="stylesheet" href="TemplateData/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css" />
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
@@ -18,15 +24,94 @@
     </script>
   </head>
   <body>
-    <div class="check-size">test size block</div>
-    <div class="webgl-content">
-      <div id="unityContainer" style="width: 960px; height: 600px"></div>
-      <div class="footer">
+    <header>
+      <div class="logo"></div>
+      <div class="menu">
+        <a id="btnIntro" href="#">Introduction</a>
+        <a id="btnExplicatif" href="#">Explicatif</a>
+        <a id="btnJeu" href="#">Jeu</a>
+        <a id="btnConceptrices" href="#">Conceptrices</a>
+      </div>
+    </header>
+    <section id="intro" class="page">
+      <h1>Titre du site</h1>
+      <h2>Introduction</h2>
+      <p>
+        Curieux d'en savoir plus sur la programmation? Top! Ce site web est fait
+        pour vous! Peut-être vous demandez-vous ce qu'est un algorithme? CSS,
+        HTML, PYTHON, C#, PHP, JS... du Chinois?
+      </p>
+      <p>
+        On espère que que ce site vous permettra d'avoir une idée plus précise
+        de ce qu'est la programmation. Réalisé par 5 étudiantes d'<a
+          title="vers le site d'interface3"
+          target="_blank"
+          href="https://www.interface3.be/"
+          >Interface3 à Bruxelles</a
+        >, il peut être utile de se rappeler que quelques moi plustôt aucune
+        d'entre elles n'avaient jamais codées avant.
+      </p>
+      <p>
+        Cela vous motive? Envie de tenter l'aventure? Il suffit de se lancer et
+        d'avancer pas à pas. Pourquoi ne pas commencer par un petit jeu pour y
+        voir plus clair ? &#128516;
+      </p>
+    </section>
+    <section id="explicatif" class="page">
+      <h2>Explicatif</h2>
+      <p>Bienvenue dans notre jeu!</p>
+      <p>
+        Afin d'avancer petit à petit vers l'élaboration de votre ùaison, vous
+        aurez des algorithmes à créer. Algorithmes vous dites? Mais KESKESEKESA?
+      </p>
+      <div class="video">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/tbmKIErjnns"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <p>
+        Grâce à celles-ci qui seront établies dans un langage courant, vous
+        pourez progressivement prendre conscience de certaines étapes de la
+        programmation.
+      </p>
+      <p>
+        Parfois il y aura des mots clés à mettre dans un certain ordre pour
+        former un phrase.
+      </p>
+      <p>Parfois, il y aura ...</p>
+      <p>
+        Vous découvrirez des informations distilées ci et là pour une meilleure
+        compréhension de ce monde qui peut paraitre bien complexe.
+      </p>
+    </section>
+    <section id="jeu">
+      <div class="webgl-content">
+        <div id="unityContainer" style="width: 960px; height: 500px"></div>
+        <!--<div class="footer">
         <div class="webgl-logo"></div>
         <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
         <div class="title">HOUSE</div>
+      </div>-->
+        <div id="play">
+          <i class="far fa-play-circle"></i>
+        </div>
       </div>
-    </div>
+    </section>
+    <section id="conceptrices" class="page">
+      <h2>Qui sommes nous?</h2>
+      <p>
+        Hello, nous sommes 5 étudiantes de formation informatique différentes:
+        Front-End Developer, Web-application developer et Game developer. Chaque
+        formation donne une approche différente et complémentaire. Grâce à
+        celles-ci, nous avons pu créer ce site... en 3 jours!
+      </p>
+      <h2>Les conceptrices</h2>
+    </section>
     <script src="script.js"></script>
   </body>
 </html>
