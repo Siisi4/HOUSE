@@ -15,12 +15,15 @@
   </head>
   <body>
     <header>
-      <div class="logo"></div>
+      <div class="logo">
+        <img src="./static/logo_blanc.png" />
+        <p>AlgoHouse</p>
+      </div>
       <div class="menu">
-        <a id="btnIntro" href="#">Introduction</a>
-        <a id="btnExplicatif" href="#">Explicatif</a>
-        <a id="btnJeu" href="#">Jeu</a>
-        <a id="btnConceptrices" href="#">Conceptrices</a>
+        <a id="btn_intro" class="link" href="#">Introduction</a>
+        <a id="btn_explicatif" class="link" href="#">Explicatif</a>
+        <a id="btn_jeu" class="link" href="#">Jeu</a>
+        <a id="btn_conceptrices" class="link" href="#">Conceptrices</a>
       </div>
     </header>
     <section id="intro" class="page">
@@ -79,14 +82,9 @@
         compréhension de ce monde qui peut paraitre bien complexe.
       </p>
     </section>
-    <section id="jeu">
+    <section id="jeu" class="page">
       <div class="webgl-content">
         <div id="unityContainer" style="width: 960px; height: 500px"></div>
-        <!--<div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
-        <div class="title">HOUSE</div>
-      </div>-->
         <div id="play">
           <i class="far fa-play-circle"></i>
         </div>

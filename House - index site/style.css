@@ -11,13 +11,27 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #2c5282;
+  background-color: mediumvioletred;
   color: white;
   height: 50px;
   position: fixed;
   width: 100%;
   margin: 0;
+  padding: 0px 10%;
 }
+header > div {
+  display: flex;
+  flex-direction: row;
+}
+header > div > img {
+  height: 40px;
+  padding-top: 5px;
+}
+header > div > p {
+  font-size: 150%;
+  margin-top: 10px;
+}
+
 .menu {
   padding-left: 10%;
 }
@@ -35,11 +49,18 @@ iframe {
   display: block;
   margin: auto;
 }
-
+.page {
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
+}
+#jeu {
+  position: relative;
+}
 .webgl-content {
   border: 1px red solid;
   position: absolute;
-  top: 310px;
+  bottom: 150px;
 }
 #unityContainer {
   border: 1px blue solid;
@@ -83,9 +104,18 @@ h1 {
   padding: 10px;
   font-size: 100%;
 }
-.info > img {
+.image {
   width: 100%;
+  border-radius: 50%;
+  border: 8px mediumvioletred solid;
+  filter: grayscale(100%);
+  transition: all 800ms;
 }
+.image:hover {
+  transform: rotate(360deg);
+  filter: grayscale(0%);
+}
+
 .info > h3 {
   text-align: center;
   margin-bottom: 0;
