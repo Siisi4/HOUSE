@@ -3,6 +3,7 @@
 }
 body {
   margin: 0;
+  padding: 0;
   font-family: Roboto;
 }
 header {
@@ -11,9 +12,16 @@ header {
   justify-content: space-between;
   background-color: #2c5282;
   color: white;
-  padding: 15px 5%;
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  margin: 0;
 }
-a {
+.menu {
+  padding-left: 10%;
+}
+.menu > a {
+  line-height: 50px;
   text-decoration: none;
   color: white;
   text-transform: uppercase;
@@ -21,11 +29,15 @@ a {
   font-weight: bold;
   font-size: 90%;
 }
+iframe {
+  display: block;
+  margin: auto;
+}
 
 .webgl-content {
   border: 1px red solid;
   position: absolute;
-  top: 340px;
+  top: 310px;
 }
 #unityContainer {
   border: 1px blue solid;
@@ -48,4 +60,15 @@ a {
   position: absolute;
   left: 50%;
   transform: translateX(-100px);
+}
+.page {
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
+}
+.page > p {
+  margin: 30px 0;
+}
+h1 {
+  text-align: center;
 }
