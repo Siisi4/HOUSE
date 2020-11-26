@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Schoolbell';
+    src: url('Schoolbell-Regular.eot');
+    src: url('Schoolbell-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Schoolbell-Regular.woff2') format('woff2'),
+        url('Schoolbell-Regular.woff') format('woff'),
+        url('Schoolbell-Regular.ttf') format('truetype'),
+        url('Schoolbell-Regular.svg#Schoolbell-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Schoolbell';
+    src: url('Schoolbell-Regular_1.eot');
+    src: url('Schoolbell-Regular_1.eot?#iefix') format('embedded-opentype'),
+        url('Schoolbell-Regular_1.woff2') format('woff2'),
+        url('Schoolbell-Regular_1.woff') format('woff'),
+        url('Schoolbell-Regular_1.ttf') format('truetype'),
+        url('Schoolbell-Regular_1.svg#Schoolbell-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
