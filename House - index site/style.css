@@ -17,7 +17,7 @@ header {
   position: fixed;
   width: 100%;
   margin: 0;
-  padding: 0px 10%;
+  padding: 0px 3%;
 }
 header > div {
   display: flex;
@@ -29,7 +29,7 @@ header > div > img {
 }
 header > div > p {
   font-size: 150%;
-  margin-top: 10px;
+  margin-top: 4px;
 }
 
 .menu {
@@ -53,6 +53,15 @@ iframe {
   width: 80%;
   margin: auto;
   padding-top: 50px;
+}
+#intro > div {
+  position: relative;
+}
+#intro > div > img {
+  position: absolute;
+  top: -150px;
+  z-index: -1;
+  left: 25%;
 }
 #jeu {
   position: relative;
