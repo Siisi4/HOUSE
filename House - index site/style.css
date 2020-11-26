@@ -74,3 +74,23 @@ iframe {
 h1 {
   text-align: center;
 }
+.presentation {
+  display: flex;
+  flex-direction: row;
+}
+.info {
+  width: 20%;
+  padding: 10px;
+  font-size: 100%;
+}
+.info > img {
+  width: 100%;
+}
+.info > h3 {
+  text-align: center;
+  margin-bottom: 0;
+}
+.info > h5 {
+  text-align: center;
+  margin-top: 5px;
+}
