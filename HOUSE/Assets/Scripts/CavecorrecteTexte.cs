@@ -22,13 +22,13 @@ public class CavecorrecteTexte : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if( InputTexte.text == "creuser()"){
+        if( InputTexte.text == "creuser"){
             BoutonSuivant.SetActive(true);
         }
-        if( InputTexte2.text == "jeter la terre()"){
+        if( InputTexte2.text == "jeter la terre"){
             BoutonFin.SetActive(true);
         }
-        if( InputTexte3.text == "recommencer()"){
+        if( InputTexte3.text == "recommencer"){
             MonCanvasCacheCorrect.SetActive(true);
         }
     }
