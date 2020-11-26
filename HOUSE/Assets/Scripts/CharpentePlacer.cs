@@ -41,6 +41,8 @@ public class CharpentePlacer : MonoBehaviour
         && toit.text == "placer sur toit"
         && lever.text == "lever"){
             Juste.SetActive(true);
+        }else{
+            Juste.SetActive(false);
         }
         }
     }
