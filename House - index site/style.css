@@ -114,6 +114,7 @@ h1 {
 .image:hover {
   transform: rotate(360deg);
   filter: grayscale(0%);
+  cursor: pointer;
 }
 
 .info > h3 {
@@ -123,4 +124,17 @@ h1 {
 .info > h5 {
   text-align: center;
   margin-top: 5px;
+}
+.bio {
+  position: absolute;
+  border: 2px mediumvioletred solid;
+  background-color: white;
+  width: 80%;
+  padding: 15px;
+  top: 120px;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
