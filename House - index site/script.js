@@ -1,4 +1,7 @@
 // import { infos } from './src/data';
+import { promise } from './src/promise-of-unity';
+
+promise();
 
 const infos = [{
   nom: 'Shin-Yuh', formation: 'WAD', image: 'av_shinyuh.png', texte: 'Bonjour,  je suis Shin-Yuh! Une ‘junior web developer’ en formation! Toujours désireuse d\'apprendre de nouvelles choses et espérer construire un meilleur monde par la programmation!', lien: '',

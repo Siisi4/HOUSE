@@ -21,6 +21,8 @@ public class TexteFleursCorrect : MonoBehaviour
     {
         if( InputTexte.text == "si rouge alors peindre en jaune"){
             MonCanvasCacheCorrect.SetActive(true);
+        }else{
+            MonCanvasCacheCorrect.SetActive(false);
         }
     }
 }
