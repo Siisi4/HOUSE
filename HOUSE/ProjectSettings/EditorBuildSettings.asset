@@ -35,10 +35,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Porte.unity
     guid: 03fdfac0c2ee06741abe474453f29f34
-  - enabled: 0
-    path: Assets/Scenes/Langages.unity
-    guid: cf673c8ced6ad2049843ed2b47cba219
-  - enabled: 0
+  - enabled: 1
+    path: Assets/Scenes/FonctionCloture.unity
+    guid: b29d67ab69cb93545bbf4155db4ec068
+  - enabled: 1
+    path: Assets/Scenes/ToutCloturer.unity
+    guid: 63074a9f59b45004396b42ef34055c19
+  - enabled: 1
+    path: Assets/Scenes/Rideaux.unity
+    guid: 7abcfea529180b4488343945065f994a
+  - enabled: 1
     path: Assets/Scenes/Fleurs.unity
     guid: 2d272d56e77594c42a565720cb5a044f
+  - enabled: 1
+    path: Assets/Scenes/Pluie.unity
+    guid: d2d2a367595c91b4da368eb9b3b7def7
+  - enabled: 1
+    path: Assets/Scenes/End.unity
+    guid: d900149c91fac8547a0a7b61bf3a7086
   m_configObjects: {}
