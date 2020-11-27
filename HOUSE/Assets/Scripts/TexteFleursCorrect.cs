@@ -19,7 +19,7 @@ public class TexteFleursCorrect : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if( InputTexte.text == "si rouge alors peindre en jaune"){
+        if( InputTexte.text == "si rouge alors peindre en rose"){
             MonCanvasCacheCorrect.SetActive(true);
         }else{
             MonCanvasCacheCorrect.SetActive(false);
