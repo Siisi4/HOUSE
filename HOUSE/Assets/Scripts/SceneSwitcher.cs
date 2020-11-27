@@ -10,6 +10,8 @@ public class SceneSwitcher : MonoBehaviour
         SceneManager.LoadScene("Langages 1");
     }
 
-
+    public void SwitchToCave(){
+        SceneManager.LoadScene("LaCave");
+    }
 
 }

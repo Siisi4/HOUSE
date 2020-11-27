@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Langages 1.unity
     guid: 99db953e06484534a85930cf64b1d3b3
+  - enabled: 1
+    path: Assets/Scenes/LaCave.unity
+    guid: 082e94d57be8ceb4f9fc9243a68612b2
   - enabled: 0
     path: Assets/Scenes/Langages.unity
     guid: cf673c8ced6ad2049843ed2b47cba219
