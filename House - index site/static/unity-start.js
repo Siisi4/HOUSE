@@ -61,7 +61,7 @@ if (highScore < timeSecond) {
 // eslint-disable-next-line no-unused-vars
 const unityInstance = UnityLoader.instantiate(
   'unityContainer',
-  'Build/jeu non fini.json',
+  'Build/AlgoHouse.json',
   // eslint-disable-next-line no-undef
   { onProgress: UnityProgress },
 );
