@@ -6,12 +6,15 @@ body {
   padding: 0;
   font-family: "Schoolbell";
   font-size: 120%;
+  background-image: url("./static/fond_large.png");
+  background-size: 100%;
+  background-repeat: repeat;
 }
 header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: mediumvioletred;
+  background-color: #3370a3;
   color: white;
   height: 50px;
   position: fixed;
@@ -40,7 +43,7 @@ header > div > p {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
-  padding-right: 20px;
+  padding: 0px 10px;
   font-weight: bold;
   font-size: 90%;
   letter-spacing: 2px;
@@ -64,19 +67,18 @@ iframe {
   left: 25%;
 }
 #jeu {
-  position: relative;
+  padding-top: 0px;
 }
 .webgl-content {
-  border: 1px red solid;
   position: absolute;
-  bottom: 150px;
+  bottom: -160px;
 }
-#unityContainer {
-  border: 1px blue solid;
+#timer {
+  margin: 0px;
 }
 #play {
   position: absolute;
-  background-image: url("./static/fond_play.jpg");
+  background-image: url("./static/maison.png");
   background-size: cover;
   height: 500px;
   width: 960px;
