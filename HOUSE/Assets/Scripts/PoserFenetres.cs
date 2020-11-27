@@ -17,7 +17,7 @@ public class PoserFenetres : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       if(TexteJoueur.text == "pour chaque façade poser deux fenêtres" || TexteJoueur.text == "pour chaque facade poser deux fenetres"){
+       if(TexteJoueur.text == "pour chaque façade poser deux fenêtres" || TexteJoueur.text == "pour chaque facade poser deux fenetres" || TexteJoueur.text == "pour chaque façade poser deux fenetres" || TexteJoueur.text == "pour chaque facade poser deux fenêtres") {
            CanvasJuste.SetActive(true);
        }else{
            CanvasJuste.SetActive(false);

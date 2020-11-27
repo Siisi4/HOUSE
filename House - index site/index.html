@@ -4,6 +4,19 @@
     <meta charset="utf-8" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Unity WebGL Player | HOUSE</title>
+    <!--
+      <link rel="shortcut icon" href="TemplateData/favicon.ico" />
+    <link rel="stylesheet" href="TemplateData/style.css" />
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate(
+        "unityContainer",
+        "Build/Build3.json",
+        { onProgress: UnityProgress }
+      );
+    </script>
+    -->
     <link
       rel="stylesheet"
       href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
@@ -17,17 +30,20 @@
     <header>
       <div class="logo">
         <img src="./static/logo_blanc.png" />
-        <p>AlgoHouse</p>
+        <p>&nbsp; AlgoHouse</p>
+      </div>
+      <div>
+        <h1 id="timer">00:00</h1>
       </div>
       <div class="menu">
-        <a id="btn_intro" class="link" href="#">Introduction</a>
+        <a id="btn_intro" class="link" href="#">Accueil</a>
         <a id="btn_explicatif" class="link" href="#">Explicatif</a>
         <a id="btn_jeu" class="link" href="#">Jeu</a>
         <a id="btn_conceptrices" class="link" href="#">Conceptrices</a>
       </div>
     </header>
     <section id="intro" class="page">
-      <h1>Bienvenue à Algo House !</h1>
+      <h1>Bienvenue à AlgoHouse !</h1>
       <h2>Introduction</h2>
       <p>
         Curieux d'en savoir plus sur la programmation? Top! Ce site web est fait
@@ -35,20 +51,23 @@
         HTML, PYTHON, C#, PHP, JS... du Chinois?
       </p>
       <p>
-        On espère que que ce site vous permettra d'avoir une idée plus précise
-        de ce qu'est la programmation. Réalisé par 5 étudiantes d'<a
+        On espère que ce site vous permettra d'avoir une idée plus précise de ce
+        qu'est la programmation. Réalisé par 5 étudiantes d'<a
           title="vers le site d'interface3"
           target="_blank"
           href="https://www.interface3.be/"
           >Interface3 à Bruxelles</a
-        >, il peut être utile de se rappeler que quelques moi plustôt aucune
-        d'entre elles n'avaient jamais codées avant.
+        >, il peut être utile de se rappeler que quelques mois plustôt aucune
+        d'entre elles n'avait jamais codé avant.
       </p>
       <p>
         Cela vous motive? Envie de tenter l'aventure? Il suffit de se lancer et
         d'avancer pas à pas. Pourquoi ne pas commencer par un petit jeu pour y
         voir plus clair ? &#128516;
       </p>
+      <div>
+        <img src="./static/rubiks_petit.gif" />
+      </div>
     </section>
     <section id="explicatif" class="page">
       <h2>Explicatif</h2>
@@ -100,7 +119,9 @@
       </p>
       <h2>Les conceptrices</h2>
       <div class="presentation"></div>
+      <div class="bio"></div>
     </section>
+    <script src="countupTimer.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
