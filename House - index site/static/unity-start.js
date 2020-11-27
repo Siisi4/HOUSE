@@ -56,6 +56,9 @@ if (highScore < timeSecond) {
 // eslint-disable-next-line no-undef
 // eslint-disable-next-line no-unused-vars
 // eslint-disable-next-line no-undef
+// eslint-disable-next-line no-unused-vars
+// eslint-disable-next-line no-undef
+// eslint-disable-next-line no-unused-vars
 const unityInstance = UnityLoader.instantiate(
   'unityContainer',
   'Build/jeu non fini.json',
