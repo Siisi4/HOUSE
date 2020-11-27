@@ -1,7 +1,6 @@
 {
   "name": "empty-parcel-project",
   "version": "0.0.1",
-  "description": "",
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html"
@@ -22,5 +21,6 @@
     "parcel-bundler": "1.12.4",
     "parcel-plugin-static-files-copy": "2.5.0",
     "sass": "1.27.0"
-  }
+  },
+  "description": ""
 }

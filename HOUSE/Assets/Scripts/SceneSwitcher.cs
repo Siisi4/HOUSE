@@ -37,4 +37,7 @@ public class SceneSwitcher : MonoBehaviour
         SceneManager.LoadScene("phraseDeDev");
     }
 
+    public void SwitchtoPorte(){
+        SceneManager.LoadScene("Porte");
+    }
 }
