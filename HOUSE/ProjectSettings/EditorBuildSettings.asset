@@ -32,6 +32,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Chat.unity
     guid: 0fb2a8cbd30e6df438a8696ba27bb05d
+  - enabled: 1
+    path: Assets/Scenes/Porte.unity
+    guid: 03fdfac0c2ee06741abe474453f29f34
   - enabled: 0
     path: Assets/Scenes/Langages.unity
     guid: cf673c8ced6ad2049843ed2b47cba219
