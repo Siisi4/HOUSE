@@ -4,6 +4,19 @@
     <meta charset="utf-8" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Unity WebGL Player | HOUSE</title>
+    <!--
+      <link rel="shortcut icon" href="TemplateData/favicon.ico" />
+    <link rel="stylesheet" href="TemplateData/style.css" />
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate(
+        "unityContainer",
+        "Build/Build3.json",
+        { onProgress: UnityProgress }
+      );
+    </script>
+    -->
     <link
       rel="stylesheet"
       href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
@@ -18,6 +31,9 @@
       <div class="logo">
         <img src="./static/logo_blanc.png" />
         <p>&nbsp; AlgoHouse</p>
+      </div>
+      <div>
+        <h1 id="timer">00:00</h1>
       </div>
       <div class="menu">
         <a id="btn_intro" class="link" href="#">Accueil</a>
@@ -105,6 +121,7 @@
       <div class="presentation"></div>
       <div class="bio"></div>
     </section>
+    <script src="countupTimer.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

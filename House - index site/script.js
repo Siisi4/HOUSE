@@ -19,8 +19,10 @@ document.querySelector('.presentation').innerHTML = html;
 // MISE EN PLACE POUR OUVERTIRE de 1ERE PAGE
 
 const btnIntro = document.querySelector('#btn_intro');
+const timer = document.querySelector('#timer');
+timer.style.display = 'none';
 document.querySelector('#intro').style.display = 'block';
-btnIntro.style.textDecorationLine = 'underline';
+btnIntro.style.backgroundColor = '#699bd2';
 document.querySelector('#explicatif').style.display = 'none';
 document.querySelector('#jeu').style.display = 'none';
 document.querySelector('#conceptrices').style.display = 'none';
@@ -38,16 +40,20 @@ const links = document.querySelectorAll('.link');
 const pages = document.querySelectorAll('.page');
 for (const link of links) {
   link.addEventListener('click', function (e) {
+    timer.style.display = 'none';
     for (const lien of links) {
-      lien.style.textDecorationLine = 'none';
+      lien.style.backgroundColor = '#3370a3';
     }
     for (const page of pages) {
       page.style.display = 'none';
     }
-    e.currentTarget.style.textDecorationLine = 'underline';
+    e.currentTarget.style.backgroundColor = '#699bd2';
     const id = e.currentTarget.id.split('_');
     document.querySelector(`#${id[1]}`).style.display = 'block';
     document.querySelector('#play').style.display = 'block';
+    if (e.currentTarget.id === 'btn_jeu') {
+      timer.style.display = 'block';
+    }
   });
 }
 
@@ -58,10 +64,12 @@ const bio = document.querySelector('.bio');
 bio.style.display = 'none';
 for (const image of images) {
   image.addEventListener('click', function (e) {
+    for (const ige of images) {
+      ige.style.filter = 'grayscale(100%)';
+    }
     const id = e.currentTarget.id.split('_');
     bio.style.display = 'block';
     let htmlBio = `<p>${infos[id[1]].texte}</p>`;
-    console.log(infos[id[1]].lien);
     if (infos[id[1]].lien !== '') {
       htmlBio += `<div class="flex"><a target="_blank" href="${infos[id[1]].lien}">Vers mon Portfolio</a>`;
     } else { htmlBio += '<div class="flex"><p> </p>'; }
