@@ -14,4 +14,23 @@ public class SceneSwitcher : MonoBehaviour
         SceneManager.LoadScene("LaCave");
     }
 
+    public void SwitchToMur(){
+        SceneManager.LoadScene("Mur");
+    }
+
+    public void SwitchToCharpente(){
+        SceneManager.LoadScene("Charpente");
+    }
+
+    public void SwitchToBaie(){
+        SceneManager.LoadScene("Baie");
+    }
+    public void SwitchToFenetres(){
+        SceneManager.LoadScene("Fenetres");
+    }
+
+    public void SwitchToChat(){
+        SceneManager.LoadScene("Chat");
+    }
+
 }

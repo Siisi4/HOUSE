@@ -1908,6 +1908,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: maison
       objectReference: {fileID: 0}
+    - target: {fileID: 8479910782010573494, guid: 26afbe45ad5a7ad418ce1d014dd15bbe,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8479910782010573495, guid: 26afbe45ad5a7ad418ce1d014dd15bbe,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2488,7 +2493,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ab64e6824079720449723fe9d29b7873, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9f08fb2cd7693f0448ff6673153060e5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
