@@ -74,7 +74,8 @@ iframe {
   bottom: -160px;
 }
 #timer {
-  margin: 0px;
+  margin: 8px;
+  font-size: 140%;
 }
 #play {
   position: absolute;
@@ -148,4 +149,14 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+button {
+  color: white;
+  background-color: #699bd2;
+  font-weight: bold;
+  border: none;
+}
+button:hover {
+  background-color: #3370a3;
+  cursor: pointer;
 }
