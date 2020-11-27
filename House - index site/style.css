@@ -6,6 +6,9 @@ body {
   padding: 0;
   font-family: "Schoolbell";
   font-size: 120%;
+  background-image: url("./static/fond.png");
+  background-size: 100%;
+  background-repeat: repeat;
 }
 header {
   display: flex;
@@ -40,7 +43,7 @@ header > div > p {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
-  padding-right: 20px;
+  padding: 0px 10px;
   font-weight: bold;
   font-size: 90%;
   letter-spacing: 2px;
@@ -64,15 +67,11 @@ iframe {
   left: 25%;
 }
 #jeu {
-  position: relative;
+  padding-top: 0px;
 }
 .webgl-content {
-  border: 1px red solid;
   position: absolute;
-  bottom: 150px;
-}
-#unityContainer {
-  border: 1px blue solid;
+  bottom: -160px;
 }
 #play {
   position: absolute;
