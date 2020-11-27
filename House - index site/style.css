@@ -6,7 +6,7 @@ body {
   padding: 0;
   font-family: "Schoolbell";
   font-size: 120%;
-  background-image: url("./static/fond.png");
+  background-image: url("./static/fond_large.png");
   background-size: 100%;
   background-repeat: repeat;
 }
