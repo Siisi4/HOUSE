@@ -33,4 +33,8 @@ public class SceneSwitcher : MonoBehaviour
         SceneManager.LoadScene("Chat");
     }
 
+    public void SwitchtoQuestions(){
+        SceneManager.LoadScene("phraseDeDev");
+    }
+
 }
